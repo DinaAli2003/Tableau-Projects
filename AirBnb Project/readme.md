@@ -1,60 +1,97 @@
-# 🏘️ AirBnb Market Analysis Dashboard
+# Airbnb Project
 
-This repository contains the Tableau workbook for an interactive dashboard that analyzes key metrics within a local short-term rental market ( Airbnb ). This project demonstrates my ability  visualize complex, geographical, and time-series data into a professional and actionable dashboard.
+# 🏠 Airbnb Listing Analysis Dashboard Project
 
----
+Welcome to the Airbnb Listing Analysis Dashboard Project! This project utilizes **Tableau Public** to transform raw Airbnb data into insightful, interactive visualizations. Our goal is to provide a clear, comprehensive view of listing performance, host activity, pricing trends, and key metrics.
 
-## 🎯 Project Objective
 
-The primary goal of this dashboard is to provide a clear, visual overview of the market's dynamics for hosts, property managers, or real estate investors. The dashboard aims to answer critical business questions, such as:
+## ✨ Key Features & Dashboards
 
-* What are the **most profitable** or **most expensive** property types and listings?
-* How do **pricing structures** vary across different geographical areas (Towns/Neighborhoods)?
-* What is the **seasonal trend** in guest engagement (reviews) over time?
-* What is the **availability** landscape for properties throughout the year?
+This project is structured into three main interactive dashboards and a dedicated Key Performance Indicators (KPIs) view, each offering a deep dive into different aspects of the Airbnb data:
 
----
+### 1. 📊 Dashboard 1: Pricing and Amenities Overview
 
-## 🛠️ Key Skills and Techniques Demonstrated
+This dashboard focuses on the financial and logistical aspects of the listings.
 
-This project showcases several specific skills essential for effective data visualization in Tableau:
+| Analysis Point | Key Takeaways |
+| :--- | :--- |
+| **TOP 10 Hosts in terms of Price** | Identifies the hosts generating the highest cumulative price from their listings. |
+| **AVG Price Per Room Type** | Shows the average price split by **Entire home/apt**, **Private room**, and **Shared room**. |
+| **Top 10 listings in terms of Price** | Highlights the individual listings with the highest price. |
+| **Most Common Room Type** | Displays the distribution of room types by the count of reviews per month, showing which type is most frequently booked/reviewed. |
+| **Correlation between Price & \# of Reviews** | Visualizes the relationship between a listing's price and the number of reviews it receives. |
+| **Top 5 Expensive Amenities** | Ranks the amenities associated with the highest cumulative pricing. |
+| **Top 10 Neighborhoods by \# of Listings** | Shows the neighborhoods with the greatest concentration of Airbnb listings, like **Capitol Hill** and **Ballard**. |
 
-| Skill/Technique | Icon | Application in Project |
-| :--- | :---: | :--- |
-| **Geospatial Mapping** | 🗺️ | Using map layers to visualize the **Available Days** and distribution of listings. |
-| **Data Aggregation** | 📊 | Calculating **Top N** listings by price and average pricing across different room types. |
-| **Time-Series Analysis** | ⏳ | Tracking the **Average Number of Reviews Over Time** to identify trends in guest activity. |
-| **Custom Calculations** | ➕ | Creating calculated fields to determine minimum nights and average review rates. |
-| **Dashboard Design** | 🖥️ | Employing a clean, consistent color palette and layout for maximum user readability. |
-| **Hierarchical Grouping** | 🏘️ | Grouping or aliasing hostnames/neighborhoods to create the **Top 5 Hostnames** visualization. |
+***
 
----
+### 2. 📈 Dashboard 2: Performance and Geographic Insights
 
-## 🔍 Dashboard Components & Key Insights
+This dashboard centers on listing distribution, host performance, and temporal/geographic pricing.
 
-The dashboard is organized into six distinct visualizations, each providing a specific insight:
+| Analysis Point | Key Takeaways |
+| :--- | :--- |
+| **Distribution of Prices** | A histogram showing the frequency of listings across different price ranges. |
+| **AVG Price per Bed Type** | A pie chart illustrating how average prices vary across **Bed**, **Couch**, **Futon**, **Pull-out**, and **Real Bed**. |
+| **Are Prices spiking on Holidays Higher?** | A line chart showing the trend of pricing over the months of the year to identify seasonal or holiday spikes. |
+| **Top 10 Higher-rated listings** | Features the listings with the best **Review Scores Rich** (a quality metric). |
+| **Top 10 Hosts By \# of listings** | Identifies the hosts, such as **Andrew** and **Jordan**, with the largest number of listings. |
+| **Price by Host Location** | A map visualization showing the geographic location of the hosts and the associated pricing. |
+| **Top 10 most expensive neighborhoods** | Ranks neighborhoods by the cumulative price of their listings. |
 
-1.  **Top 5 Hostnames in terms of price:** Identifies the highest-priced hostnames/neighborhoods, which can indicate luxury or high-demand areas.
-2.  **Available Days for every listing over the year:** A scatter map showing property density and availability, useful for finding undersaturated areas.
-3.  **Top 10 listings by price:** A detailed bar chart highlighting specific, highly expensive properties in the market.
-4.  **Min nights by Room Type:** A simple pie chart (or donut chart) showing the typical minimum stay required, which helps categorize properties (short-term vs. extended stay).
-5.  **AVG number of reviews over time:** A line chart showing the market's activity and growth over the past several years.
-6.  **Average price by room type:** A critical bar chart comparing the typical cost of a Hotel Room, Entire Home/Apt, Private Room, and Shared Room.
+***
 
----
+### 3. ⭐ Dashboard 3: Rating, Availability, and Review Metrics
 
-## ⚙️ How to Access and View the Project
+This dashboard provides a deeper look into listing quality, customer experience, and operational metrics.
 
-You can interact with the live dashboard or view the source file locally:
+| Analysis Point | Key Takeaways |
+| :--- | :--- |
+| **Top 10 hosts by number of listings** | Reiteration of the highest volume hosts (**Andrew**, **Jordan**, **Daniel**, etc.). |
+| **Rating Distribution** | A histogram showing how review ratings are distributed, with a high concentration near the top (100). |
+| **Average Reviews Per Room Type** | Compares the average number of reviews for **Shared room**, **Entire home/apt**, and **Private room**, with **Private room** leading. |
+| **Average availability per listing (out of 365)** | Shows the average number of available days per listing for the top-listed properties (**Zen Garden Oasis!**, **Your Warm Retreat**, etc.). |
+| **Correlation between Availability and price** | A scatter plot to examine if a listing's price is related to its annual availability. |
+| **Availability over months** | A time-series view showing the total availability across the calendar year, indicating periods of higher and lower capacity. |
 
- **Local Access** 📥:
-    To inspect the calculations and structure, download the **`.twbx`** (Tableau Packaged Workbook) file in this repository. You will need **Tableau Desktop** or the free **Tableau Reader** to open it.
+***
 
----
+### 4. 🔢 KPIs (Key Performance Indicators)
 
-## ✉️ Connect with Me!
+The dedicated KPI sheet provides a high-level summary of the entire dataset's main metrics:
 
-I am passionate about using data visualization to drive clear decision-making. I welcome your feedback and connection!
+| Metric | Value |
+| :--- | :--- |
+| **Host listing Count** | **$27.31K$** |
+| **AVG \# of Accommodates** | **$3.35$** |
+| **\# of listing** | **$3.82K$** |
+| **\# of Reviews** | **$84.85K$** |
+| **Number of Reviews** (Total) | **$84.85K$** |
+| **MAX Nights** | **$9.05K$** |
+| **MIN Nights** | **$3M$** |
+| **\# of Hosts** | **$1.47K$** |
+| **\# of Beds** | **$6.62K$** |
+| **\# of Bathrooms** | **$4.79K$** |
+| **\# of Bedrooms** | **$4.99K$** |
+| **Monthly Price** (SUM) | **$4M$** |
 
-* **Portfolio**: [https://portfolio-dina.lovable.app/]
-* **Email**: [dinaelharedy00@gmail.com]
+***
+
+## 🛠️ Technology Used
+
+* **Tableau Public Desktop Edition:** Used for data connection, transformation, and creation of all visualizations and dashboards.
+
+## 🚀 Getting Started
+
+To view and interact with these dashboards:
+
+1.  Ensure you have **Tableau Public** installed, or access the shared link once published online.
+2.  Open the Tableau workbook file (`.twbx`).
+3.  Navigate through the tabs at the bottom to explore **Dashboard 1**, **Dashboard 2**, **Dashboard 3**, and the **KPIs** sheet.
+4.  Interact with the charts (e.g., hover over bars, select categories) to gain dynamic insights.
+
+***
+
+## 🤝 Contact
+
+For any questions or feedback regarding this analysis, please reach out!
