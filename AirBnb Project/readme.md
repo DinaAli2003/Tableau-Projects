@@ -1,5 +1,3 @@
-# Airbnb Project
-
 # 🏠 Airbnb Listing Analysis Dashboard Project
 
 Welcome to the Airbnb Listing Analysis Dashboard Project! This project utilizes **Tableau Public** to transform raw Airbnb data into insightful, interactive visualizations. Our goal is to provide a clear, comprehensive view of listing performance, host activity, pricing trends, and key metrics.
