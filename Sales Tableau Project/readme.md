@@ -21,26 +21,32 @@ The solution is divided into three distinct, interconnected dashboards, each add
 
 ## 📈 Key Metrics & Analysis Highlights
 
-### 1. Profit Performance (💰)
-This dashboard tracks overall financial health and customer/product value:
-* **Profit Distribution:** Visual breakdown of profit across key product categories (Technology, Furniture, Office Supplies).
-* **Customer & Product Value:** Identification of the **Top 5 Profitable Customers** and **Top 10 Profitable Products**, essential for retention strategies and inventory focus.
-* **Trend Analysis:** A detailed time-series view of **Total Profit over time** (2018-2023), revealing seasonality and growth trajectory.
+### **Dashboard 1: Profit Performance (💰)**
+This section focuses on total profitability and value creation:
+* **Total Profit for every Category:** Pie chart illustrating profit contribution. **Technology** and **Furniture** represent the largest profit segments, with **Total Profit** exceeding **$\text{300K}$**.
+* **Customer & Product Value:** Identification of the **Top 10 profitable products** and **Top 5 Profitable Customers** (e.g., Ronald, Woodrow), essential for retention strategies and inventory focus.
+* **Profit Trend Analysis:** A detailed time-series view of **Total Profit over time** (spanning 2018-2023), revealing strong profit growth and increased volatility in the later years.
+* **Quantity Seasonality:** Line chart showing **Quantity over months**, with peaks typically occurring in February and March.
 * **Geographic Focus:** Map visualization showing **Profit for every City**, allowing for hyper-local performance review.
 
-### 2. Revenue and Volume (🚀)
-This section focuses on sales magnitude, market demand, and customer purchasing power:
-* **Sales Category Breakdown:** Pie chart illustrating the proportional contribution of each product category to total sales.
-* **Top Sellers:** Bar charts highlighting the **Top 5 products in terms of Sales** and the **Top 5 Customers in terms of Sales**.
-* **Geographic Sales:** Map view detailing **Sales Per Country**, confirming the primary markets (e.g., USA).
-* **Sales Seasonality:** Line chart showing **Sales by month**, critical for forecasting and resource planning.
 
-### 3. Operational Health (⚙️)
+### **Dashboard 2: Revenue and Volume (🚀)**
+This dashboard provides a high-level summary of the business's top-line performance:
+* **Key Performance Indicators (KPIs):** Instant view of macro-level metrics including **Total Quantity ($\text{46K}$)**, **Total Revenue ($\text{3M}$)**, **Total Sales ($\text{3M}$)**, and **Total Profit ($\text{303K}$)**.
+* **Sales by Category:** Shows the proportional contribution of each product category to total sales (**Technology** is the highest).
+* **Top Sellers:** Identification of the **Top 5 products in terms of Sales** (e.g., Cisco, Canon, HP Design) and the **Top 5 Customers in terms of Sales** (e.g., Herbert, Nixon, Rutherford).
+* **Geographic Sales:** Map view detailing **Sales Per Country**, confirming the primary markets (e.g., USA).
+* **Sales Seasonality:** Line chart showing **Sales by month**, indicating peak sales months like July and September.
+
+
+### **Dashboard 3: Operational Health (⚙️)**
 This dashboard provides a check on key operational variables that influence the bottom line:
-* **Discount Strategy:** Horizontal bar chart showing **Total Discount by Country**, an immediate indicator of potential margin leakage.
-* **Order Volume:** Treemap visualizing the **\# Orders for every Country**, showing market activity and fulfillment load.
-* **Quantity Sold:** Donut chart showing **Quantity Sold for every Category**, complementing the sales and profit views.
-* **Core Relationship:** A **Correlation between Profit & Sales** scatter plot, offering quick visual assessment of whether high sales volume translates efficiently to high profit.
+* **Quantity Sold:** Donut chart showing **Quantity Sold for every Category**. **Technology** has the highest volume of units sold ($\text{28,163}$).
+* **Discount Strategy:** Horizontal bar chart showing **Total Discount by Country**. **France, USA, and Germany** have the highest discount totals, indicating potential margin leakage or aggressive pricing in these markets.
+* **Order Volume:** Treemap visualizing the **\# Orders for every Country**. **USA** accounts for the vast majority of orders.
+* **Revenue Trend:** Line chart showing **Revenue over Time** (Jan-Dec) with significant daily/weekly fluctuations.
+* **Profit Density:** Text table detailing **Profit size by City**, showing high-profit cities like **Eugene, Frankfurt a.M. Kirkland, and Köln**.
+* **Core Relationship:** A **Correlation between Profit & Sales** scatter plot, offering a quick visual assessment of the relationship between sales volume and profitability.
 
 ---
 
@@ -48,12 +54,13 @@ This dashboard provides a check on key operational variables that influence the 
 
 ### Access Requirements
 To interact with these dashboards, you will need:
-* **Tableau Desktop/Public:** The project file (`Sales_Tableau_Project.twb` or link to Tableau Public) must be opened in the appropriate Tableau environment.
-
+* **Tableau Desktop/Public:** The project file (`Sales_Tableau_Project.twbx` ) must be opened in the appropriate Tableau environment.
 
 ### User Interaction Tips
 * **Filtering:** Utilize the built-in filters (e.g., date range, category filters) on each dashboard to drill down into specific subsets of the data.
 * **Tooltips:** Hover over any visual element (bars, points, map regions) to access detailed metric values and contextual information.
 * **Drill-Down:** Click on a country in the map views to see the related city-level or regional data, if configured in the workbook.
 
-This documentation ensures a high degree of usability and clarity for all stakeholders leveraging your analysis.
+---
+
+This documentation provides a precise, data-driven description of the dashboards. 
