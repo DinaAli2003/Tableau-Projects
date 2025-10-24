@@ -63,4 +63,7 @@ To interact with these dashboards, you will need:
 
 ---
 
+## 🤝 Contact
+For any questions or feedback regarding this analysis, please reach out!
+
 This documentation provides a precise, data-driven description of the dashboards. 
