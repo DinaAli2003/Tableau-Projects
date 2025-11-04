@@ -47,7 +47,6 @@ To open and explore the `.twbx` files locally:
 
 * **Software**: You must have **Tableau Desktop** (version 2021.4 or newer is recommended) or the free **Tableau Reader** installed.
 * **Data Source**: All packaged workbooks (`.twbx`) include the data source internally, making them ready to open immediately.
-* **Quick View**: For the fastest experience, click the **Tableau Public Link** for the respective project to view the interactive version directly in your web browser.
 
 ---
 
