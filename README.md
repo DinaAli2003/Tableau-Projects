@@ -38,8 +38,7 @@ Each project folder contains the following:
 * The **`.twb`** (Tableau Workbook) or **`.twbx`** (Tableau Packaged Workbook) file.
 * A **`README.md`** specific to the project, detailing the objective, data source, and key findings.
 * A **`Screenshot.png`** or **`Gif.gif`** of the final dashboard.
-* A direct link to the **Tableau Public** visualization .
-* 
+  
 ---
 
 ## ⚙️ Requirements & How to View
