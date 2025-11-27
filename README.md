@@ -65,7 +65,7 @@ While this repository focuses on **Tableau**, my data analysis journey involves 
 
 I am actively seeking opportunities to apply my data visualization and analysis skills.
 
-* **LinkedIn**: [https://bit.ly/4hDJguP]
+* **LinkedIn**: [https://www.linkedin.com/in/dina-ali-0573a724b/]
 * **Portfolio**: [https://portfolio-dina.lovable.app/]
 * **Email**: [dinaelharedy00@gmail.com]
 
