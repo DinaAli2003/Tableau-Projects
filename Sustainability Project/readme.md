@@ -1,6 +1,6 @@
-# 🌳 Global Sustainability Performance & Impact Analyzer
+# 🌳  Sustainability Project (Tableau)
 
-## 1. Project Title: **Global Sustainability Performance & Impact Analyzer** 🌍
+## 1. Project Title:  Sustainability Dashboard Analysis  🌍
 
 ***
 
@@ -101,4 +101,3 @@ The entirety of this reporting suite is developed and maintained within the **Ta
 | :---: | :--- | :--- |
 | **📂** | **Core Asset** | The primary analytical file is the Tableau Workbook (`Sustainability Project.twbx`). All data connections, data models, and calculations are encapsulated within this file. |
 | **📄** | **Documentation** | This README provides the necessary technical and content context. 
-
